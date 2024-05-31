@@ -1,1 +1,14 @@
-
+{
+    "id": "hua.app.sub",
+    "name": "hua 应用订阅",
+    "author": "shenhua",
+    "icon": "",
+    "repo": "https://github.com/shenhuash/qx",
+    "apps": [
+      {
+        "id": "Longhu",
+        "name": "申工社小程序Token",
+        "keys": ["sgs"]
+      }
+    ]
+}
