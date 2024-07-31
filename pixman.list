@@ -1,10 +1,9 @@
-  # 海外
-  - HOST-SUFFIX,livednow.com,Pixman
-  - HOST-SUFFIX,orz-7.com,Pixman
-  - HOST-SUFFIX,4gtv.tv,Pixman
-  - HOST-SUFFIX,hinet.net,Pixman
-  - HOST-SUFFIX,ofiii.com,Pixman
-  - HOST-SUFFIX,googlevideo.com,Pixman
-  - HOST-SUFFIX,youtube.com,Pixman
-  - HOST-SUFFIX,mytvsuper.com,Pixman
-  - HOST-SUFFIX,thetvapp.to,Pixman
+host-suffix,livednow.com,Pixman
+host-suffix,orz-7.com,Pixman
+host-suffix,4gtv.tv,Pixman
+host-suffix,hinet.net,Pixman
+host-suffix,ofiii.com,Pixman
+host-suffix,googlevideo.com,Pixman
+host-suffix,youtube.com,Pixman
+host-suffix,mytvsuper.com,Pixman
+host-suffix,thetvapp.to,Pixman
