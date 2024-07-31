@@ -7,3 +7,15 @@ host-suffix,googlevideo.com,Pixman
 host-suffix,youtube.com,Pixman
 host-suffix,mytvsuper.com,Pixman
 host-suffix,thetvapp.to,Pixman
+host-suffix,dnsany.com,DIRECT
+host-suffix,cmvideo.cn,DIRECT
+host-suffix,chinamobile.com,DIRECT
+host-suffix,mobaibox.com,DIRECT
+host-suffix,gitv.tv,DIRECT
+host-suffix,cctv.cn,DIRECT
+host-suffix,yangshipin.cn,DIRECT
+host-suffix,gcable.cn,DIRECT
+IP-CIDR,183.206.0.0/15,DIRECT,no-resolve
+IP-CIDR,223.5.5.5/32,DIRECT,no-resolve
+IP-CIDR,27.36.0.0/14,DIRECT,no-resolve
+IP-CIDR,183.238.66.0/24,DIRECT,no-resolve
