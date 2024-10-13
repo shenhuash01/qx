@@ -1,21 +1,36 @@
-host-suffix,livednow.com,Pixman
-host-suffix,orz-7.com,Pixman
-host-suffix,4gtv.tv,Pixman
-host-suffix,hinet.net,Pixman
-host-suffix,ofiii.com,Pixman
-host-suffix,googlevideo.com,Pixman
-host-suffix,youtube.com,Pixman
-host-suffix,mytvsuper.com,Pixman
-host-suffix,thetvapp.to,Pixman
-host-suffix,dnsany.com,DIRECT
-host-suffix,cmvideo.cn,DIRECT
-host-suffix,chinamobile.com,DIRECT
-host-suffix,mobaibox.com,DIRECT
-host-suffix,gitv.tv,DIRECT
-host-suffix,cctv.cn,DIRECT
-host-suffix,yangshipin.cn,DIRECT
-host-suffix,gcable.cn,DIRECT
-IP-CIDR,183.206.0.0/15,DIRECT,no-resolve
-IP-CIDR,223.5.5.5/32,DIRECT,no-resolve
-IP-CIDR,27.36.0.0/14,DIRECT,no-resolve
-IP-CIDR,183.238.66.0/24,DIRECT,no-resolve
+# 以下规则需要国内直连
+  ## TPTV
+  host-suffix,mobaibox.com,DIRECT
+  IP-CIDR,183.207.0.0/16,DIRECT,no-resolve
+
+  ## YSP
+  host-suffix,cctv.cn,DIRECT
+  host-suffix,yangshipin.cn,DIRECT
+
+  ## ITV
+  host-suffix,dnsany.com,DIRECT
+  host-suffix,cmvideo.cn,DIRECT
+  host-suffix,chinamobile.com,DIRECT
+
+  # 以下规则需要台湾线路
+  ## Hamivideo
+  host-suffix,cdn.hinet.net,台湾节点
+
+  # 以下规则需要海外线路
+  ## 4GTV & Hamivideo
+  host-suffix,4gtv.tv,Pixman
+  host-suffix,hinet.net,Pixman
+  host-suffix,ofiii.com,Pixman
+
+  ## YouTube
+  host-suffix,googlevideo.com,Pixman
+  host-suffix,youtube.com,Pixman
+
+  ## MytvSuper
+  host-suffix,mytvsuper.com,Pixman
+  host-suffix,tvb.com,Pixman
+
+  # 以下规则可自行测试能否直连，不能直连的话设置为海外代理
+  host-suffix,livednow.com,Pixman
+  host-suffix,livednow.org,Pixman
+  host-suffix,wx.sb,Pixman
