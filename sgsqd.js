@@ -1,4 +1,17 @@
 const axios = require('axios');
+const https = require('https');
+
+// 创建一个不验证证书的 https.Agent
+const httpsAgent = new https.Agent({
+  rejectUnauthorized: false,
+});
+
+axios.get('https://example.com/api', { httpsAgent })
+  .then(response => console.log(response.data))
+  .catch(error => console.error(error));
+
+
+
 const notify = require('./sendNotify');  // 引入青龙的通知模块
 
 const token = process.env.sgs;
