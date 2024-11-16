@@ -1,14 +1,18 @@
 const axios = require('axios');
 const https = require('https');
 
-// 创建一个不验证证书的 https.Agent
-const httpsAgent = new https.Agent({
-  rejectUnauthorized: false,
+const agent = new https.Agent({  
+  rejectUnauthorized: false  // 禁用证书验证
 });
 
-axios.get('https://example.com/api', { httpsAgent })
-  .then(response => console.log(response.data))
-  .catch(error => console.error(error));
+axios.get('https://fwdt.shengongshe.org/sgsWchartApi/api/My/sign', { httpsAgent: agent })
+  .then(response => {
+    console.log(response.data);
+  })
+  .catch(error => {
+    console.error(error);
+  });
+
 
 
 
